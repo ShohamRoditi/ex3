@@ -8,40 +8,41 @@ header,nav,aside,article,section,footer,main{
 	display:block;
 }
 
-
 #wrapper{
 	margin:0px auto;
 	width:1000px;
 	height:1000px;
-	/*background-color:#000000; /*it is for me . dont forget remove this line!*/
+	background-color:#000000; /*it is for me . dont forget remove this line!*/
 }
 
 .clear{
 	clear:both;
 }
 
-header{
+/*header*/
+#layout1{
 	width:1000px;
-	height:183px;
+	height:171px;
 }
 
-nav{
+/*nav*/
+#main_nav_layout1{
 	width:727px;
 	height:57px;
-	background-color:#b94a48;
+	/*background-color:#b94a48;*/
 	margin-top:47px;
 	float:right;
 }
 
-#logo{
+#logo1{
 	width:68px;
 	height:67px;
 	background: url(../images/logoo.png) no-repeat left center ;
 	/*background-size:contain;*/
 	display:block;
 	margin-left:104px;
-	margin-top:10px;  /*??*/
-	margin-bottom:48px;
+	margin-top:10px;  
+	/*margin-bottom:48px;*/
 }
 
 aside{
@@ -51,21 +52,6 @@ aside{
 	background-color:#f2dede;
 }
 
-section{
-	width:849px;
-	height:268px;
-	float:left;  /*??*/
-	background-color:#ee5f5b;
-	margin-left:30px;
-	position:relative;
-}
-
-footer{
-	width:1000px;
-	height:121px;
-	background-color:#d6d6d6;
-}
-
 a{ 
 	text-decoration:none;
 	text-align:center;
@@ -73,35 +59,62 @@ a{
 
 ul{list-style-type:none;}
 
+/*section*/
+.cover{
+	width:849px;
+	height:268px;
+	float:left;  
+	background-color:#ee5f5b;
+	margin-left:30px;
+	position:relative;
+}
+
+.footlay1{
+	width:1000px;
+	height:121px;
+	background-color:#d6d6d6;
+}
+
+
+
+/*ul in layout 1*/
+#main_nav_layout1 ul{
+	/*list-style-type:none;*/
+	float:right;}
+
  /*layout_1*/
 .selected {
 	background-color:#333333;
-	/*padding:20px 89px 19px 88px; */
 }
 
-nav ul li{
-	float:right;
+/*nav ul li*/
+#main_nav_layout1 ul li{
+/*float:right;*/  /**/
+	float:left;
 }
 
 
-#main_nav_layout1 ul li a{
+/*#main_nav_layout1 ul li a*/
+
+.selected ,.layout{
 	
-	font-size:24px;
+	font-size:18px;
 	color:#ffffff;
 	width:242px;
 	height:57px;
 	display:block;
-	line-height: 57px;
+	line-height:57px;
 }
 
 .layout{
 	background-color:#b94a48;
 }
-article{
-	position:absolute;
-}
+/*article{*/
+	/*position:relative;*/
+/*}*/
 
 #box1{
+	position:absolute;
 	top:89px;
 	left:342px;
 	width:126px;
@@ -111,11 +124,21 @@ article{
 }
 
 #box2{
-	float:left;
-	position:relative;
-	top:224px;
+	position:relative; /*with absolue its not work*/
+	top:492px;
 	height:175px;
 	width:692px;
-	left:97px;
+	left:218px;
 	background-color:#666666;
+	
+}
+
+/*layout number 2 */
+
+/*#layout2{
+	width:
+	height:
+}
+#logo2{
+	
 }

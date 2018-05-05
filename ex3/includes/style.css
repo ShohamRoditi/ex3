@@ -1,7 +1,6 @@
 *{
 	padding:0px;
 	margin:0px;
-	font-family:Arial,Helvetica, sans-serif; 
 }
 
 header,nav,aside,article,section,footer,main{
@@ -19,30 +18,43 @@ header,nav,aside,article,section,footer,main{
 	clear:both;
 }
 
-/*header*/
+header{width:1000px;}
+
+a{ 
+	text-decoration:none;
+	text-align:center;
+	color:#ffffff;
+	font-size:18px;
+	font-family:Arial,Helvetica, sans-serif; 
+}
+
+ul{list-style-type:none;}
+
+/*header of layout_1*/
 #layout1{
-	width:1000px;
 	height:171px;
 }
 
-/*nav*/
+/*nav of layout_1*/
 #main_nav_layout1{
 	width:727px;
 	height:57px;
-	/*background-color:#b94a48;*/
 	margin-top:47px;
 	float:right;
 }
 
-#logo1{
+/* logo in layout_1 & layout_2*/
+/*.logo*/
+header > a{
 	width:68px;
 	height:67px;
-	background: url(../images/logoo.png) no-repeat left center ;
-	/*background-size:contain;*/
+	background: url(../images/logoo.png) no-repeat center center ;
 	display:block;
+}
+
+.logo1{
 	margin-left:104px;
 	margin-top:10px;  
-	/*margin-bottom:48px;*/
 }
 
 aside{
@@ -51,13 +63,6 @@ aside{
 	float:left;
 	background-color:#f2dede;
 }
-
-a{ 
-	text-decoration:none;
-	text-align:center;
-}
-
-ul{list-style-type:none;}
 
 /*section*/
 .cover{
@@ -69,37 +74,32 @@ ul{list-style-type:none;}
 	position:relative;
 }
 
-.footlay1{
-	width:1000px;
-	height:121px;
+footer{
 	background-color:#d6d6d6;
+	width:1000px;
 }
 
-
+.footer_lay1{
+	height:121px;
+}
 
 /*ul in layout 1*/
 #main_nav_layout1 ul{
-	/*list-style-type:none;*/
 	float:right;}
 
  /*layout_1*/
-.selected {
+.selected,#main_nav_layout2 {
 	background-color:#333333;
 }
 
 /*nav ul li*/
 #main_nav_layout1 ul li{
-/*float:right;*/  /**/
 	float:left;
 }
-
 
 /*#main_nav_layout1 ul li a*/
 
 .selected ,.layout{
-	
-	font-size:18px;
-	color:#ffffff;
 	width:242px;
 	height:57px;
 	display:block;
@@ -109,9 +109,6 @@ ul{list-style-type:none;}
 .layout{
 	background-color:#b94a48;
 }
-/*article{*/
-	/*position:relative;*/
-/*}*/
 
 #box1{
 	position:absolute;
@@ -135,10 +132,44 @@ ul{list-style-type:none;}
 
 /*layout number 2 */
 
-/*#layout2{
-	width:
-	height:
+#layout2{
+	height:193px;
 }
-#logo2{
-	
+.logo2{
+	position:relative;
+	left:462px;
+	top:37px;
+	bottom:87px;
 }
+
+#main_nav_layout2 {
+	width:243px;
+	height:758px;
+	float:left;
+}
+
+.style_nav_2{
+	height:58px;
+	width:243px;
+	line-height:58px;
+	display:block;
+	text-align:left;
+}
+
+.footer_lay2{
+	position:fixed;
+	height:50px;
+	bottom:0px;
+}
+
+.style_cov_2{
+	background-color:#ee5f5b;
+	height:758px;
+	width:758px;
+	float:right;
+	position:relative;
+	bottom:758px;
+}
+
+
+

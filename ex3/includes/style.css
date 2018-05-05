@@ -10,15 +10,17 @@ header,nav,aside,article,section,footer,main{
 #wrapper{
 	margin:0px auto;
 	width:1000px;
-	height:1000px;
+	/*height:1000px;*/
 	background-color:#000000; /*it is for me . dont forget remove this line!*/
+	/*display: flex;*/
+    /*flex-wrap: wrap;*/
 }
 
 .clear{
 	clear:both;
 }
 
-header{width:1000px;}
+header,main{width:1000px;}
 
 a{ 
 	text-decoration:none;
@@ -31,7 +33,7 @@ a{
 ul{list-style-type:none;}
 
 /*header of layout_1*/
-#layout1{
+.layout1{
 	height:171px;
 }
 
@@ -110,14 +112,14 @@ footer{
 	background-color:#b94a48;
 }
 
-#box1{
+.box1{
 	position:absolute;
 	top:89px;
 	left:342px;
 	width:126px;
 	height:94px;
-	background-color:#000000;
-	opacity:0.6;  
+	/*background-color:#000000;*/
+	/*opacity:0.6;  */
 }
 
 #box2{
@@ -154,6 +156,7 @@ footer{
 	line-height:58px;
 	display:block;
 	text-align:left;
+	padding-left:6px;
 }
 
 .footer_lay2{
@@ -169,7 +172,61 @@ footer{
 	float:right;
 	position:relative;
 	bottom:758px;
+	overflow: hidden;
 }
 
+.style_box{
+	background-color:#000000; 
+	opacity:0.6;
+}
 
+.style_cov_2 article{
+	width:212px;
+	position:relative;
+}
+.box1_lay2{
+	height:366px;
+	/*margin-left:30px;*/
+}
+
+.box2_lay2{
+	height:500px;
+	/*margin-top:19px;*/
+	/*margin-left:30px;*/
+	
+}
+
+.box1_lay2,.box2_lay2{
+	margin-left:30px;
+}
+
+.box2_lay2,.box4_lay2{
+	margin-top:19px;
+}
+
+.box3_lay2{
+	height:560px;
+	/*position:relative;*/
+	left:271px;
+	bottom:885px;
+	}
+	
+.box4_lay2{
+	height:306px;
+	/*position:relative;*/
+	left:271px;
+	bottom:885px;
+	/*margin-top:19px;*/
+}
+
+.box5_lay2{
+	height:223px;
+	/*position:relative;*/
+	left:513px;
+	bottom:1770px;
+}
+
+/*main{
+	width:1000px;
+	/*height:758px;*/
 

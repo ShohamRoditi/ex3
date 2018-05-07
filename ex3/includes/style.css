@@ -33,12 +33,14 @@ a{
 ul{list-style-type:none;}
 
 /*header of layout_1*/
-.layout1{
+/*.layout1*/
+#layout_1 header{
 	height:171px;
 }
 
 /*nav of layout_1*/
-#main_nav_layout1{
+/*#main_nav_layout1*/
+#layout_1 nav{
 	width:727px;
 	height:57px;
 	margin-top:47px;
@@ -54,7 +56,8 @@ header > a{
 	display:block;
 }
 
-.logo1{
+/*.logo1*/
+#layout_1 header > a{
 	margin-left:104px;
 	margin-top:10px; 
  
@@ -68,7 +71,8 @@ aside{
 }
 
 /*section of lay1*/
-.cover_lay1{
+/*.cover_lay1*/
+#layout_1 section{
 	width:849px;
 	height:268px;
 	float:left;  
@@ -82,16 +86,18 @@ footer{
 	width:1000px;
 }
 
-.footer_lay1{
+/*.footer_lay1*/
+#layout_1 footer{
 	height:121px;
 }
 
 /*ul in layout 1*/
-#main_nav_layout1 ul{
+/*#main_nav_layout1 ul*/
+#layout_1 nav ul{
 	float:right;}
 
  /*layout_1*/
-.selected,#main_nav_layout2 {
+.selected,#main_nav_layout2{
 	background-color:#333333;
 }
 
@@ -114,7 +120,8 @@ footer{
 	background-color:#b94a48;
 }
 
-.box1{
+/*.box1*/
+#layout_1 section article{
 	position:absolute;
 	top:89px;
 	left:342px;
@@ -122,7 +129,8 @@ footer{
 	height:94px;
 }
 
-#box2{
+/*#box2*/
+#layout_1 main article{
 	position:relative; /*with absolue its not work*/
 	top:492px;
 	height:175px;
@@ -134,23 +142,27 @@ footer{
 
 /*layout number 2 */
 
-#layout2{
+/*#layout2*/
+#layout_2 header{
 	height:193px;
 }
-.logo2{
+/*.logo2*/
+#layout_2 header a{
 	position:relative;
 	left:465px;
 	top:37px;
 	/*bottom:87px;*/
 }
 
-#main_nav_layout2 {
+/*#main_nav_layout2*/
+#layout_2 nav {
 	width:243px; 
 	height:885px;
 	float:left;
 }
 
-#main_nav_layout2 li { /*?? */
+/*#main_nav_layout2 li*/
+#layout_2 nav li  { /*?? */
 	display:block;
 	/*width:243px;*/
 /* רק אם מגדירה רוחב זה מסתדר */
@@ -165,18 +177,20 @@ footer{
 	/*padding-left:6px;*/
 }
 
-.footer_lay2{
+/*.footer_lay2*/
+#layout_2 footer{
 	position:fixed;
 	height:50px;
 	bottom:0px;
 }
 
-.style_cov_2{
+/*.style_cov_2*/
+#layout_2 section{
 	background-color:#ee5f5b;
 	height:885px;
 	width:757px;
 	float:right;
-		/*position:relative;*/
+	position:relative;
 	/*bottom:757px;*/
 	/*overflow: hidden;*/
 }
@@ -189,7 +203,7 @@ footer{
 
 .style_cov_2 article{
 	width:212px;
-	position:relative;
+	/*position:relative;*/
 }
 .box1_lay2{
 	height:366px;
@@ -217,17 +231,17 @@ footer{
 
 .box3_lay2{
 	height:560px;
-	/*position:relative;*/
+	position:absolute;
 	left:273px;
-	top:-885px;
+	bottom:325px;
 	
 	}
 	
 .box4_lay2{
 	height:306px;
-	/*position:relative;*/
+	position:absolute;
 	left:273px;
-	top:-885px;
+	top:560px;
 	/*margin-top:19px;*/
 
 
@@ -235,9 +249,9 @@ footer{
 
 .box5_lay2{
 	height:223px;
-	/*position:relative;*/
+	position:absolute;
 	left:513px;
-	top:-1770px;
+	bottom:662px;
 }
 
 /*main{

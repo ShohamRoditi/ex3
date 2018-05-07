@@ -3,14 +3,14 @@
 	margin:0px;
 }
 
-header,nav,aside,article,section,footer,main{
+
+header,nav,aside,article,section,main,footer,{
 	display:block;
 }
 
 #wrapper{
 	margin:0px auto;
 	width:1000px;
-	/*height:1000px;*/
 	background-color:#000000; /*it is for me . dont forget remove this line!*/
 	/*display: flex;*/
     /*flex-wrap: wrap;*/
@@ -56,7 +56,8 @@ header > a{
 
 .logo1{
 	margin-left:104px;
-	margin-top:10px;  
+	margin-top:10px; 
+ 
 }
 
 aside{
@@ -66,8 +67,8 @@ aside{
 	background-color:#f2dede;
 }
 
-/*section*/
-.cover{
+/*section of lay1*/
+.cover_lay1{
 	width:849px;
 	height:268px;
 	float:left;  
@@ -103,12 +104,13 @@ footer{
 
 .selected ,.layout{
 	width:242px;
-	height:57px;
-	display:block;
+	/*height:57px;*/
+	display:block;  
 	line-height:57px;
+	
 }
 
-.layout{
+.layout,.layout2{
 	background-color:#b94a48;
 }
 
@@ -118,8 +120,6 @@ footer{
 	left:342px;
 	width:126px;
 	height:94px;
-	/*background-color:#000000;*/
-	/*opacity:0.6;  */
 }
 
 #box2{
@@ -139,24 +139,30 @@ footer{
 }
 .logo2{
 	position:relative;
-	left:462px;
+	left:465px;
 	top:37px;
-	bottom:87px;
+	/*bottom:87px;*/
 }
 
 #main_nav_layout2 {
-	width:243px;
-	height:758px;
+	width:243px; 
+	height:885px;
 	float:left;
+}
+
+#main_nav_layout2 li { /*?? */
+	display:block;
+	/*width:243px;*/
+/* רק אם מגדירה רוחב זה מסתדר */
 }
 
 .style_nav_2{
 	height:58px;
-	width:243px;
+	/*width:238px;*/
 	line-height:58px;
-	display:block;
+	/*display:block;*/
 	text-align:left;
-	padding-left:6px;
+	/*padding-left:6px;*/
 }
 
 .footer_lay2{
@@ -167,17 +173,18 @@ footer{
 
 .style_cov_2{
 	background-color:#ee5f5b;
-	height:758px;
-	width:758px;
+	height:885px;
+	width:757px;
 	float:right;
-	position:relative;
-	bottom:758px;
-	overflow: hidden;
+		/*position:relative;*/
+	/*bottom:757px;*/
+	/*overflow: hidden;*/
 }
 
 .style_box{
 	background-color:#000000; 
 	opacity:0.6;
+	/*float:left;*/
 }
 
 .style_cov_2 article{
@@ -191,8 +198,12 @@ footer{
 
 .box2_lay2{
 	height:500px;
-	/*margin-top:19px;*/
+	margin-top:19px;
 	/*margin-left:30px;*/
+	/*position:relative;*/
+	/*position:relative;*/
+	/*left:-241px;*/
+	/*top:386px;*/
 	
 }
 
@@ -207,23 +218,26 @@ footer{
 .box3_lay2{
 	height:560px;
 	/*position:relative;*/
-	left:271px;
-	bottom:885px;
+	left:273px;
+	top:-885px;
+	
 	}
 	
 .box4_lay2{
 	height:306px;
 	/*position:relative;*/
-	left:271px;
-	bottom:885px;
+	left:273px;
+	top:-885px;
 	/*margin-top:19px;*/
+
+
 }
 
 .box5_lay2{
 	height:223px;
 	/*position:relative;*/
 	left:513px;
-	bottom:1770px;
+	top:-1770px;
 }
 
 /*main{

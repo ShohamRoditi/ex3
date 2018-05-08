@@ -12,8 +12,6 @@ header,nav,aside,article,section,main,footer,{
 	margin:0px auto;
 	width:1000px;
 	background-color:#000000; /*it is for me . dont forget remove this line!*/
-	/*display: flex;*/
-    /*flex-wrap: wrap;*/
 }
 
 .clear{
@@ -35,7 +33,7 @@ ul{list-style-type:none;}
 /*header of layout_1*/
 /*.layout1*/
 #layout_1 header{
-	height:171px;
+height:172px; 
 }
 
 /*nav of layout_1*/
@@ -43,7 +41,7 @@ ul{list-style-type:none;}
 #layout_1 nav{
 	width:727px;
 	height:57px;
-	margin-top:47px;
+	margin-top:48px;
 	float:right;
 }
 
@@ -59,7 +57,7 @@ header > a{
 /*.logo1*/
 #layout_1 header > a{
 	margin-left:104px;
-	margin-top:10px; 
+	margin-top:11px; 
  
 }
 
@@ -102,7 +100,8 @@ footer{
 }
 
 /*nav ul li*/
-#main_nav_layout1 ul li{
+/*#main_nav_layout1 ul li*/ /*check this*/
+#layout_1 ul li{
 	float:left;
 }
 
@@ -113,7 +112,6 @@ footer{
 	/*height:57px;*/
 	display:block;  
 	line-height:57px;
-	
 }
 
 .layout,.layout2{
@@ -136,8 +134,7 @@ footer{
 	height:175px;
 	width:692px;
 	left:218px;
-	background-color:#666666;
-	
+	/*background-color:#666666;*/
 }
 
 /*layout number 2 */
@@ -151,7 +148,6 @@ footer{
 	position:relative;
 	left:465px;
 	top:37px;
-	/*bottom:87px;*/
 }
 
 /*#main_nav_layout2*/
@@ -164,8 +160,6 @@ footer{
 /*#main_nav_layout2 li*/
 #layout_2 nav li  { /*?? */
 	display:block;
-	/*width:243px;*/
-/* רק אם מגדירה רוחב זה מסתדר */
 }
 
 .style_nav_2{
@@ -174,7 +168,7 @@ footer{
 	line-height:58px;
 	/*display:block;*/
 	text-align:left;
-	/*padding-left:6px;*/
+	padding-left:6px;
 }
 
 /*.footer_lay2*/
@@ -191,8 +185,6 @@ footer{
 	width:757px;
 	float:right;
 	position:relative;
-	/*bottom:757px;*/
-	/*overflow: hidden;*/
 }
 
 .style_box{
@@ -201,24 +193,18 @@ footer{
 	/*float:left;*/
 }
 
-.style_cov_2 article{
+/*.style_cov_2 article*/
+#layout_2 section article{
 	width:212px;
-	/*position:relative;*/
 }
+
 .box1_lay2{
 	height:366px;
-	/*margin-left:30px;*/
 }
 
 .box2_lay2{
 	height:500px;
-	margin-top:19px;
-	/*margin-left:30px;*/
-	/*position:relative;*/
-	/*position:relative;*/
-	/*left:-241px;*/
-	/*top:386px;*/
-	
+	margin-top:19px;	
 }
 
 .box1_lay2,.box2_lay2{
@@ -234,17 +220,13 @@ footer{
 	position:absolute;
 	left:273px;
 	bottom:325px;
-	
-	}
+}
 	
 .box4_lay2{
 	height:306px;
 	position:absolute;
 	left:273px;
 	top:560px;
-	/*margin-top:19px;*/
-
-
 }
 
 .box5_lay2{
@@ -254,7 +236,5 @@ footer{
 	bottom:662px;
 }
 
-/*main{
-	width:1000px;
-	/*height:758px;*/
+
 

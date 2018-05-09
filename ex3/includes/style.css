@@ -11,7 +11,7 @@ header,nav,aside,article,section,main,footer,{
 #wrapper{
 	margin:0px auto;
 	width:1000px;
-	background-color:#000000; /*it is for me . dont forget remove this line!*/
+	/*background-color:#000000; /*it is for me . dont forget remove this line!*/*/
 }
 
 .clear{
@@ -74,7 +74,7 @@ aside{
 	width:849px;
 	height:268px;
 	float:left;  
-	background-color:#ee5f5b;
+	/*background-color:#ee5f5b;*/
 	margin-left:30px;
 	position:relative;
 }
@@ -83,6 +83,8 @@ footer{
 	background-color:#d6d6d6;
 	width:1000px;
 }
+
+section{background-color:#ee5f5b;}
 
 /*.footer_lay1*/
 #layout_1 footer{
@@ -95,7 +97,8 @@ footer{
 	float:right;}
 
  /*layout_1*/
-.selected,#main_nav_layout2{
+/*.selected,#main_nav_layout2*/
+.selected,#layout_2 nav{
 	background-color:#333333;
 }
 
@@ -109,7 +112,7 @@ footer{
 
 .selected ,.layout{
 	width:242px;
-	/*height:57px;*/
+	height:57px;
 	display:block;  
 	line-height:57px;
 }
@@ -127,9 +130,12 @@ footer{
 	height:94px;
 }
 
+#layout_1 main{ position:relative;}
+
+/*#layout_1 article {position:absolute;}*/
 /*#box2*/
 #layout_1 main article{
-	position:relative; /*with absolue its not work*/
+	position:absolute; /*with absolue its not work*/
 	top:492px;
 	height:175px;
 	width:692px;
@@ -162,7 +168,8 @@ footer{
 	display:block;
 }
 
-.style_nav_2{
+/*.style_nav_2*/
+#layout_2 li a{
 	height:58px;
 	/*width:238px;*/
 	line-height:58px;
@@ -180,17 +187,16 @@ footer{
 
 /*.style_cov_2*/
 #layout_2 section{
-	background-color:#ee5f5b;
+	/*background-color:#ee5f5b;*/
 	height:885px;
 	width:757px;
 	float:right;
 	position:relative;
 }
 
-.style_box{
+article{
 	background-color:#000000; 
 	opacity:0.6;
-	/*float:left;*/
 }
 
 /*.style_cov_2 article*/
@@ -204,7 +210,6 @@ footer{
 
 .box2_lay2{
 	height:500px;
-	margin-top:19px;	
 }
 
 .box1_lay2,.box2_lay2{
@@ -218,23 +223,20 @@ footer{
 .box3_lay2{
 	height:560px;
 	position:absolute;
-	left:273px;
+	left:272px;
 	bottom:325px;
 }
 	
 .box4_lay2{
 	height:306px;
 	position:absolute;
-	left:273px;
+	left:272px;
 	top:560px;
 }
 
 .box5_lay2{
 	height:223px;
 	position:absolute;
-	left:513px;
+	left:514px;
 	bottom:662px;
 }
-
-
-
